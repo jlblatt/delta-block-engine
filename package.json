@@ -1,0 +1,26 @@
+{
+  "name": "delta-block-engine",
+  "version": "1.0.0",
+  "description": "A rhythm game engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix",
+    "test": "echo \"No tests yet!\""
+  },
+  "author": "Jason Blatt",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/node": "^14.14.12",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "prettier": "^2.2.1"
+  }
+}
