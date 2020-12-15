@@ -3,6 +3,7 @@ import { DeltaBlockEngine } from './DeltaBlockEngine'
 const testArgs = {
   size: 10,
   bpm: 120,
+  offset: 0,
 }
 
 test("can instantiate multiple DeltaBlockEngine's which have unique ids counting up from 1", () => {
